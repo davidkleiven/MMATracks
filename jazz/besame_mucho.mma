@@ -1,0 +1,68 @@
+// Besame mucho
+
+Tempo 100
+KeySig F
+
+Begin Solo
+    Voice Flute
+    Octave 5
+    Articulate 90
+    Rvolume 10
+    Rtime 5
+End
+
+Groove Metronome4
+z
+Groove ChaChaSus
+Bass Volume ff
+Gm {43g+;43d+;43bb;43d;43bb;43g;}
+Eb7 / D7 / {43bb;43a;43g;43a;43g;43f#;}
+Gm {1g;}
+Gm
+
+Repeat
+// Verse
+Gm
+Gm
+Cm
+Cm
+Cm / Bdim /
+Cm / D7 /
+Gm
+Gm
+G7
+G7
+Cm7
+Cm7
+Gm
+Eb7 / D7 /
+Gm
+Gm
+
+Cm
+Gm
+Cm / D7 /
+Gm
+Cm
+Gm
+A7 / Eb7
+D7
+RepeatEnd
+
+Gm
+Gm
+Cm
+Cm
+Cm / Bdim /
+Cm / D7 /
+Gm
+Gm
+G7
+G7
+Cm7
+Cm7
+Gm
+Eb7 / D7 /
+Groove ChaChaEnd
+Gm
+Gm
