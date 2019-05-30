@@ -1,0 +1,62 @@
+// Wonder of you
+
+Tempo 80
+KeySig F
+Bass Volume +80
+
+Begin Solo
+    Voice Strings
+    Octave 6
+    Articulate 90
+    Rvolume 10
+    Rtime 5
+End
+
+// Introduction
+Solo Volume ff
+Groove Metronome4
+z {4r;4r;4r;8a;8bb;}
+Groove BalladSus
+Bass Volume ff
+Chord Volume mp
+F {4+8c;8f;4+8f;8f;}
+F7 {4+8c;8f;4+8f;8f;}
+Bb / C7 / {4d+;4d+;4c+;4bb;}
+F / Eb D7 {2+4a;8bb;8c+;}
+Gm7 {2d+;2bb;}
+C7 {4r;8r;c;43bb;43g;43a;}
+F / F#dim / {2f;}
+Gm7 / C7 /
+
+// Verse
+Repeat
+Groove Ballad1
+Bass Volume ff
+F
+Dm
+Gm7
+C7
+F
+Dm
+Gm7
+C7
+Groove BalladSus
+Bass Volume ff
+Chord Volume mf
+F
+F7
+Bb / C7 /
+F / Eb D7
+Gm7
+C7
+RepeatEnding
+F / F#dim /
+Gm7 / C7 /
+RepeatEnd
+Groove BalladEnd
+F
+F
+F
+F
+
+
