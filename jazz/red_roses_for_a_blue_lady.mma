@@ -1,0 +1,63 @@
+// Red roses for a blue lady
+
+Tempo 126
+KeySig Bb
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Articulate 90
+    Rvolume 10
+    Rtime 5
+End
+
+Groove Metronome4
+z {4r;4r;4r;4g;}
+Groove EasySwingSus
+Bass Volume ff
+Plectrum Volume pp
+Cm7 / C#dim / {4bb;4bb;8bb;8+4g;}
+Bb / F7 / {4bb;4g;4eb;4g;}
+Bb {1bb;}
+Bb z / / 
+
+Repeat
+// Verse
+Bb
+Bb
+A7
+A7
+D7
+D7
+G7
+G7
+Cm7
+F7
+F7
+Gm
+C7
+C7
+F7
+F7
+Bb
+Bb
+A7
+A7
+D7
+D7
+G7
+G7
+Cm7
+F7
+Bb
+G7
+Cm7 / C#dim /
+Bb
+F7
+RepeatEnding 2
+Bb 
+Bb z / / 
+RepeatEnd
+Groove EasySwingEnd
+Bb
+Bb
