@@ -1,0 +1,62 @@
+// Summer time
+
+Tempo 72
+KeySig F
+
+Begin Solo
+    Voice Flute
+    Octave 5
+    Articulate 90
+    Rvolume 10
+    Rtime 5
+End
+
+Groove Metronome4
+z {4r;4r;4r;4a;}
+Groove NiteJazzSus
+F / Dm / {4c;8a;8c;8d;4+8f;}
+G / Gm / {8a;8+4g;2f;}
+Bass Chords Dm / Db /
+Dm {8f;8+4+2d;}
+Bass Chords C / B /
+Dm
+
+// Verse
+Repeat
+Bass Chords Dm / Db /
+Dm
+Bass Chords C / B /
+Dm
+Bass Chords Dm / Db /
+Dm
+Bass Chords C / B /
+Dm
+Bass Chords Gm / F# /
+Gm
+Bass Chords F / E /
+Gm
+A7
+A7
+
+Bass Chords Dm / Db /
+Dm
+Bass Chords C / B /
+Dm
+Bass Chords Dm / Db /
+Dm
+Bass Chords C / B /
+Dm
+F / Dm /
+G / Gm /
+Bass Chords Dm / Db /
+Dm
+Bass Chords C / B /
+Dm
+RepeatEnding
+Bass Chords Dm / Db /
+Dm
+G7 / F /
+RepeatEnd
+Groove NiteJazzEnd
+Dm
+Dm
