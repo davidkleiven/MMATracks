@@ -1,0 +1,64 @@
+// Rock-a-bye your baby with a dixiemelody
+
+Tempo 156
+KeySig Ab
+
+Groove Metronome4
+z
+
+Groove DixieMarch
+Bass Volume ff
+Chord-Banjo Volume p
+Chord-Piano Volume p
+
+// Intro
+Ab
+Ab / Fm /
+Bb7 / Eb7 /
+Ab
+
+// Verse
+Repeat
+Ab
+Bass Chords C / Bdim /
+Ab / Bdim /
+Bbm7 
+Eb7
+Bbm7 / Eb7 /
+Bbm7 / Eb7 /
+Ab / Fm /
+Bb7 / Eb7 / 
+Bbm
+Bbm / Eb7 / 
+Ab
+Cm7 / F7 / 
+Eb
+Fm7 / Bb7 / 
+Eb7 / Bbm7 /
+Eb7
+
+Ab
+Bass Chords C / Bdim /
+Ab / Bdim /
+Bbm7 
+Eb7
+Bbm7 / Eb7 /
+Bbm7 / Eb7 /
+C7
+C7
+F7
+F7
+Bb7
+Bb7
+Ab
+Ab / Fm /
+Bb7 / Eb7 /
+RepeatEnding 2
+Ab
+RepeatEnd
+Groove DixieMarchEnd
+Ab
+Ab
+
+
+
