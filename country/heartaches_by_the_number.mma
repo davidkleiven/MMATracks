@@ -1,0 +1,66 @@
+// Heartaches By The Number
+
+Tempo 136
+KeySig G
+
+Begin Solo
+    Voice Flute
+    Octave 5
+    Articulate 90
+    Rvolume 10
+    Rtime 5
+End
+
+Groove Metronome4
+z {4r;4r;4r;4b;}
+Groove ShuffleBoggieSus
+Bass Volume ff
+Chord-Guitar Volume p
+D7 {4c;4b;4c;4a;}
+D7 {4f#;4d;4b;4a;}
+G {1g;}
+D7
+
+// Verse
+Repeat
+Groove ShuffleBoggieSus
+G
+G7
+C
+C
+D7
+D7
+G
+D7
+G
+G7
+C
+C
+D7
+D7
+G
+G z / /
+G
+G7
+C
+C
+D7
+D7
+G
+D7
+G
+G7
+C
+C
+D7
+D7
+RepeatEnding
+G
+G
+RepeatEnd
+Groove ShuffleBoggieEnd
+G
+G
+
+
+
