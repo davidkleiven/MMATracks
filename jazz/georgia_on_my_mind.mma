@@ -1,0 +1,62 @@
+// Georgia On My Mind
+
+Tempo 80
+KeySig Bb
+
+Begin Solo
+    Voice Flute
+    Octave 6
+    Articulate 90
+    Rvolume 10
+    Rtime 5
+End
+
+Groove Metronome4
+z {4r;4r;4r;81bb-;82c-;}
+Groove EasySwingSus
+Bass Volume ff
+Plectrum Volume pp
+BbM / D7 / {4d;4f;4a;4g;}
+Cm7 / F7 / {4eb-;4g-;81d-;4d-;82bb-;}
+BbM {1bb-;}
+BbM
+
+// Verse
+Repeat
+Repeat
+BbM
+D7
+Gm
+Cm
+BbM / G7 /
+Cm7 / F7 /
+BbM / G7 /
+RepeatEnding
+Cm7 / F7 /
+RepeatEnd
+BbM
+BbM / D7 /
+Gm7 / Am7 /
+Gm / Eb /
+Gm / Am7 /
+Bb / C7 /
+Gm / D7 /
+Bb / A7 /
+Dm7 / G7 /
+C7 / F7 / 
+
+BbM
+D7
+Gm
+Cm
+BbM
+D7 
+Cm7 / F7 / 
+RepeatEnding
+BbM
+BbM
+RepeatEnd
+Groove EasySwingEnd
+BbM
+BbM
+

@@ -1,0 +1,113 @@
+// Crazy
+
+use ../grooves/ballad4triplet
+Tempo 72
+KeySig F
+
+Set ChordVolume mp
+Set PlectrumVolume mp
+
+Begin Solo
+    Voice Piano1
+    Octave 6
+    Articulate 90
+End
+
+Groove Metronome4
+z
+Groove BalladBassHalfNotes
+Bass Volume ff
+Solo Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+// Intro
+Bb / Am7 / {43f;43d;43bb-;8e;8+4c;}
+Gm7 / FM7 / {43d;43bb-;43g-;8c;8+4a-;}
+Gm7 / C7 / {43bb-;43c#-;43d-;4f-;4g-;}
+Groove Ballad4Triplet
+Bass Volume ff
+Chord-Sus Volume m
+Plectrum-guitar Volume m
+F {1f;}
+
+Repeat
+// Verse
+Groove Ballad4Triplet
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+F
+D7
+Gm7
+Gm7
+C7
+C7
+Groove BassRockBalladFirstTone
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+F / F#dim /
+Gm7 / C7 /
+Groove Ballad4Triplet
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+F
+D7
+Gm7
+Gm7
+C7
+C7
+Groove BassRockBalladFirstTone
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+F / Bb / 
+Groove Ballad4Triplet
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+F / F7
+
+// Bridge
+Bb
+Bb
+F
+F
+G7
+G7
+Groove BassRockBalladFirstTone
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+C7 / Gm7
+Groove Ballad4Triplet
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+C7
+
+// Verse
+F
+D7
+Gm7
+Gm7
+Groove BalladBassHalfNotes
+Bass Volume ff
+Chord-Sus Volume m
+Plectrum-guitar Volume m
+Bb / Am7
+Gm7 / FM7
+Gm7 / C7
+Groove Ballad4Triplet
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+F
+RepeatEnd
+Bbm
+Groove Ballad4TripletEnd
+Bass Volume ff
+Chord-Sus Volume $ChordVolume
+Plectrum-guitar Volume $PlectrumVolume
+F

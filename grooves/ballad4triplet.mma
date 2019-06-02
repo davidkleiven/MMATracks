@@ -1,0 +1,136 @@
+Author David Kleiven
+Doc Collection of useful 12-8 feel ballads
+SeqClear
+Time 4
+TimeSig 4 4
+
+// Drum track
+Begin Drum Define
+    D13 1 0 120; 3 0 120;
+    D24 2 0 120; 4 0 120;
+    Dtrip 1 3 60; 1.33 3 60; 1.66 3 60; 2 3 90; 2.33 3 60; 2.66 3 60; 3 3 60; 3.33 3 60; 3.66 3 60; 4 3 120; 4.33 3 60; 4.66 3 60;
+    D1 1 0 120;
+End
+
+// Drum groove
+Begin Drum-Bass
+    Tone KickDrum1
+    Volume m
+    Sequence D13
+End
+Begin Drum-Snare
+    Tone SnareDrum2
+    Volume m
+    Sequence D24
+End
+Begin Drum-Hiat
+    Tone ClosedHiHat
+    Volume p
+    Sequence Dtrip
+End
+
+// Bass pattern
+Bass Define BassRockBallad 1 4+3+3 1 90; 2.66 3 3 80; 3 4 5 90; 4 3+3 3 80; 4.66 3 5 80;
+Bass Define BassRockBalladFirstTone 1 4+3+3 1 90;2.66 3 1 80; 3 4+3+4 1 90; 4.66 3 1 90;
+Bass Define BassHalfNotes 1 2 1 90; 3 2 1 90;
+Bass Define LongNote 1 1 1 90;
+
+// Chord patterns
+Chord Define Sustained2 1 2 100; 3 2 100;
+Chord Define Sustained1 1 1 100;
+
+// Plectrum patterns
+Plectrum Define Simple 1 +3 70 70 70 70 70 70; 2 +3 120 120 120 120 120 100; 2.66 -3 70 70 70 70 70 70; 3 +1 70 70 70 70 70 70; 4 +1 120 120 120 120 120 120;
+Plectrum Define SlowSimple 1 +6 120 120 120 120 120 120; 3 +6 120 120 120 120 120 120;
+Plectrum Define LongNote 1 +6 120 120 120 120 120 120;
+
+Begin Chord-Sus
+    Voice Strings
+    Sequence Sustained1
+    Octave 5
+End
+
+Begin Plectrum-guitar
+    Voice NylonGuitar
+    Sequence Simple
+    Octave 5
+End
+
+Begin Bass
+    Voice AcousticBass
+    Sequence BassRockBallad
+    Octave 3
+    Articulate 60
+End
+
+DefGroove Ballad4Triplet
+
+Begin Bass
+    Voice AcousticBass
+    Sequence BassHalfNotes
+    Octave 3
+    Articulate 60
+End
+
+Begin Chord-Sus
+    Voice Strings
+    Sequence Sustained2
+    Octave 5
+End
+
+Begin Plectrum-guitar
+    Voice NylonGuitar
+    Sequence SlowSimple
+    Octave 5
+End
+
+DefGroove BalladBassHalfNotes
+
+Begin Bass
+    Voice AcousticBass
+    Sequence BassRockBalladFirstTone
+    Octave 3
+    Articulate 60
+End
+
+Begin Plectrum-guitar
+    Voice NylonGuitar
+    Sequence Simple
+    Octave 5
+End
+
+DefGroove BassRockBalladFirstTone
+
+SeqClear
+
+Begin Bass
+    Voice AcousticBass
+    Sequence LongNote
+    Octave 3
+    Articulate 60
+End
+
+Begin Plectrum-guitar
+    Voice NylonGuitar
+    Sequence LongNote
+    Octave 5
+End
+
+Begin Chord-Sus
+    Voice Strings
+    Sequence Sustained1
+    Octave 5
+End
+
+Begin Drum-Bass
+    Tone KickDrum1
+    Volume m
+    Sequence D1
+End
+Begin Drum-Hihat
+    Tone OpenHiHat
+    Volume m
+    Sequence D1
+End
+
+DefGroove Ballad4TripletEnd
