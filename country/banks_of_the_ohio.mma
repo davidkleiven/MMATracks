@@ -1,0 +1,68 @@
+// Banks of the Ohio
+
+use ../grooves/easy_country
+KeySig F
+Tempo 120
+
+Set GuitarVolume mp
+Set BassVolume ff
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 4
+    Articulate 90
+End
+
+Groove Metronome4
+z {4r;4f;4f;4g;}
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F {1a;}
+C7 {4r;4a;4g;4g;}
+F {1f;}
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F
+
+Repeat
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F
+F
+C7
+C7
+C7
+C7
+F
+F
+F
+Groove CountryRelaxedFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F7
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Bb
+Bb
+F
+C7
+F
+RepeatEnding 2
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F
+RepeatEnd
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F / Bb /
+Groove CountryRelaxedEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F
+
