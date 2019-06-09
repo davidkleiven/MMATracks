@@ -1,0 +1,108 @@
+// Paper roses
+
+use ../grooves/easy_country
+Tempo 120
+KeySig C
+
+Set BassVolume ff
+Set GuitarVolume mp
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 4
+    Articulate 90
+End
+
+Solo Volume ff
+
+Groove Metronome4
+z {2r;4+81c+;82b;}
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F {2b;2a;}
+F / B7 / {2r;4+81b;82a;}
+Em {2a;2g;}
+Em / A7 / {2r;4+81a;82g;}
+Dm {4g;4f;4e;4f;}
+G7 {2a;2b-;}
+C {1c;}
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+
+Repeat
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+C
+G7
+G7
+G7
+G7
+C
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+C7
+F
+F
+G7
+G7
+C
+Groove CountryRelaxedFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F
+F
+C
+C
+Dm
+G7
+C
+Groove CountryRelaxedFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F
+F / B7 /
+Em
+Em / A7 /
+Dm
+G7
+C
+RepeatEnding 2
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+RepeatEnd
+C / A7 / {2r;4+81a;82g;}
+Dm {4g;4f;4e;4f;}
+G7 {2a;2b;}
+C {1c+;}
+Groove CountryRelaxedEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+
+
+
+
+
