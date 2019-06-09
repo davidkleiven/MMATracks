@@ -21,9 +21,21 @@ Groove CountryRelaxed
 Bass Volume $BassVolume
 Plectrum-guitar Volume $GuitarVolume
 F {2b;2a;}
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 F / B7 / {2r;4+81b;82a;}
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 Em {2a;2g;}
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 Em / A7 / {2r;4+81a;82g;}
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 Dm {4g;4f;4e;4f;}
 G7 {2a;2b-;}
 C {1c;}
@@ -81,9 +93,21 @@ Groove CountryRelaxed
 Bass Volume $BassVolume
 Plectrum-guitar Volume $GuitarVolume
 F
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 F / B7 /
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 Em
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 Em / A7 /
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 Dm
 G7
 C
@@ -93,7 +117,13 @@ Bass Volume $BassVolume
 Plectrum-guitar Volume $GuitarVolume
 C
 RepeatEnd
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 C / A7 / {2r;4+81a;82g;}
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
 Dm {4g;4f;4e;4f;}
 G7 {2a;2b;}
 C {1c+;}
