@@ -1,0 +1,105 @@
+Author David Kleiven
+Doc Collection of useful 12-8 feel ballads
+SeqClear
+Time 4
+TimeSig 4 4
+
+
+// Drum track
+Begin Drum Define
+    D13 1 0 120; 2.5 0 120;3 0 120;
+    D24 2 0 120; 4 0 120;
+    D8 1 4 60; 1.5 4 60; 2 4 120; 2.5 4 60; 3 4 60; 3.5 4 60; 4 4 120; 4.5 4 60;
+    D1 1 0 120;
+End
+
+// Bass patterns
+Bass Define Bass1to3 1 4+8 1 90; 2.5 8 1 90; 3 4+8 5 90; 4.5 8 5 60;
+Bass Define Bass1 1 4+8 1 90; 2.5 8 1 90; 3 4+8 1 90; 4.5 8 1 60;
+Bass Define BassDown 1 8 1 90; 1.5 8 1 90; 2 4 7- 90; 3 4 6- 90; 4 4 5- 90;
+Bass Define Long 1 1 1 90;
+
+// Plectrum-patterns
+Plectrum Define Simple 1 +3 70 70 70 70 70 70; 2 +3 120 120 120 120 120 100; 2.5 -3 70 70 70 70 70 70; 3 +1 70 70 70 70 70 70; 4 +1 120 120 120 120 120 120;
+Plectrum Define LongNote 1 +6 120 120 120 120 120 120;
+
+// Chord patterns
+Chord Define Sustained1 1 1 100;
+
+// Begin groove
+// Drum groove
+Begin Drum-Bass
+    Tone KickDrum1
+    Volume m
+    Sequence D13
+End
+Begin Drum-Snare
+    Tone SnareDrum2
+    Volume m
+    Sequence D24
+End
+Begin Drum-Hiat
+    Tone ClosedHiHat
+    Volume p
+    Sequence D8
+End
+
+Begin Bass
+    Voice FingeredBass
+    Sequence Bass1to3
+    Octave 3
+    Articulate 60
+End
+
+Begin Plectrum-guitar
+    Voice NylonGuitar
+    Sequence Simple
+    Octave 5
+End
+
+DefGroove Steady8BeatBallad
+
+Begin Chord-Sus
+    Voice Strings
+    Sequence Sustained1
+    Octave 5
+End
+
+DefGroove Steady8BeatBalladSus
+
+Chord-Sus SeqClear
+
+Begin Bass
+    Voice FingeredBass
+    Sequence BassDown
+    Octave 3
+    Articulate 60
+End
+
+DefGroove Steady8BeatBalladFill1
+
+Begin Bass
+    Voice FingeredBass
+    Sequence Long
+    Octave 3
+    Articulate 60
+End
+
+Begin Plectrum-guitar
+    Voice NylonGuitar
+    Sequence LongNote
+    Octave 5
+End
+
+Begin Drum-Bass
+    Tone KickDrum1
+    Volume m
+    Sequence D1
+End
+Begin Drum-Hihat
+    Tone OpenHiHat
+    Volume m
+    Sequence D1
+End
+
+DefGroove Steady8BeatBalladEnd
