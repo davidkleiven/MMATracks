@@ -16,7 +16,7 @@ End
 Bass Define BassAlternating 1 4+8 1 90; 3 4+8 5 90;
 Bass Define Bass1to1 1 4 1 90; 2 4 5- 90; 3 4 6- 90; 4 4 7- 90;
 Bass Define Bass1to2 1 4 1 90; 3 4 2 90; 4 4 3 90;
-Bass Define Bass1only 1 4 1 90; 3 4 1 90;
+Bass Define Bass1only 1 4+8 1 90; 3 4+8 1 90;
 Bass Define BassLong 1 1 1 90;
 
 // Guitar
