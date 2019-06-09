@@ -25,6 +25,7 @@ Plectrum Define LongNote 1 +6 120 120 120 120 120 120;
 
 // Chord patterns
 Chord Define Sustained1 1 1 100;
+Chord Define Sustained2 1 2 100; 3 2 100;
 
 // Begin groove
 // Drum groove
@@ -77,6 +78,23 @@ Begin Bass
 End
 
 DefGroove Steady8BeatBalladFill1
+
+Begin Bass
+    Voice FingeredBass
+    Sequence Bass1
+    Octave 3
+    Articulate 60
+End
+
+DefGroove Steady8BeatBalladBass1
+
+Begin Chord-Sus
+    Voice Strings
+    Sequence Sustained2
+    Octave 5
+End
+
+DefGroove Steady8BeatBalladBass1Sus
 
 SeqClear
 Begin Bass
