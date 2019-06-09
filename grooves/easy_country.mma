@@ -13,8 +13,8 @@ Begin Drum Define
 End
 
 // Bass pattern
-Bass Define BassAlternating 1 4 1 90; 3 4 5 90;
-Bass Define Bass1to1 1 4 1 90; 2 4 5 90; 3 4 6 90; 4 4 7 90;
+Bass Define BassAlternating 1 4+8 1 90; 3 4+8 5 90;
+Bass Define Bass1to1 1 4 1 90; 2 4 5- 90; 3 4 6- 90; 4 4 7- 90;
 Bass Define Bass1to2 1 4 1 90; 3 4 2 90; 4 4 3 90;
 Bass Define Bass1only 1 4 1 90; 3 4 1 90;
 Bass Define BassLong 1 1 1 90;
@@ -41,7 +41,7 @@ Begin Drum-Hiat
 End
 
 Begin Bass
-    Voice AcousticBass
+    Voice FingeredBass
     Sequence BassAlternating
     Octave 3
     Articulate 60
@@ -57,7 +57,7 @@ End
 DefGroove CountryRelaxed
 
 Begin Bass
-    Voice AcousticBass
+    Voice FingeredBass
     Sequence Bass1to1
     Octave 3
     Articulate 60
@@ -65,7 +65,7 @@ End
 DefGroove CountryRelaxedFill1
 
 Begin Bass
-    Voice AcousticBass
+    Voice FingeredBass
     Sequence Bass1to2
     Octave 3
     Articulate 60
@@ -73,7 +73,7 @@ End
 DefGroove CountryRelaxedFill2
 
 Begin Bass
-    Voice AcousticBass
+    Voice FingeredBass
     Sequence Bass1only
     Octave 3
     Articulate 60
@@ -81,7 +81,7 @@ End
 DefGroove CountryRelaxedFill4
 
 Begin Bass
-    Voice AcousticBass
+    Voice FingeredBass
     Sequence BassLong
     Octave 3
     Articulate 60
