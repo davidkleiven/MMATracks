@@ -1,0 +1,141 @@
+// Stand by your man
+
+use ../grooves/easy_country
+
+Tempo 108
+KeySig G
+
+Set BassVolume ff
+Set GuitarVolume mp
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 4
+    Articulate 90
+End
+
+Solo Volume ff
+
+Groove Metronome4
+z
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G {4r;4g;4a;4b;}
+B7 {1f#;}
+C {4r;4e;4f#;4g;}
+C  {4a;4g;4f#;4e;}
+G {4r;4d;4c#;4d;}
+E7 {4e;4d;4c;4b-;}
+A7 {1a-;}
+D7
+G {4r;4g;4a;4b;}
+B7 {1f#;}
+C {4r;4e;4f#;4g;}
+C  {4a;4g;4f#;4e;}
+G {4r;4d;4c#;4d;}
+D7 {4f#;4+81f#;82g;4a;}
+B7 {1b;}
+E7
+C {1g;}
+D7 {2+4a;4b;}
+G {1g;}
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+
+Repeat
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+G
+D7
+D7
+Am
+D7
+G
+Groove CountryRelaxedFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+C
+G
+G
+A7
+A7
+D7
+D7
+
+G
+G
+D7
+D7
+Am
+D7
+G
+Groove CountryRelaxedFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+C
+G
+C
+G
+D7
+G
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+B7
+C
+C
+G
+E7
+A7
+D7
+G
+B7
+C
+C
+G
+D7
+B7
+E7
+C
+D7
+G
+RepeatEnding
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+RepeatEnd
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G / C / 
+Groove CountryRelaxedEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+
+
+
+
+
