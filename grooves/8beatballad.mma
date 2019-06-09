@@ -78,6 +78,7 @@ End
 
 DefGroove Steady8BeatBalladFill1
 
+SeqClear
 Begin Bass
     Voice FingeredBass
     Sequence Long
