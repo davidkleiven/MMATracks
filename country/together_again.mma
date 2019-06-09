@@ -1,0 +1,65 @@
+// Together again
+use ../grooves/easy_country
+
+Tempo 72
+KeySig G
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 4
+    Articulate 90
+End
+
+Set BassVolume ff
+Set GuitarVolume mp
+Solo Volume ff
+
+Groove Metronome4
+z {4r;8r;8g;43g;43f#;43e;}
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+D7 {4e;4+2d;}
+D7 {4r;8r;8d;43c+;43b;43a;}
+G {1g;}
+Repeat
+Groove CountryRelaxedEnd
+G
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+G7
+C
+C
+D7
+D7
+G
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+G7
+C
+C
+D7
+D7
+RepeatEnding 2
+G
+RepeatEnd
+G {4r;8r;8g;43g;43f#;43e;}
+D7 {4e;4+2d;}
+D7 {4r;8r;8d;43c+;43b;43a;}
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G / C / {1g;}
+Groove CountryRelaxedEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+
