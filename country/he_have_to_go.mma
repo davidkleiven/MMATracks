@@ -1,0 +1,177 @@
+// He'll Have To Go
+
+use ../grooves/country_waltz
+
+Tempo 72
+KeySig F
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 4
+    Articulate 90
+End
+
+Solo Volume ff
+Set BassVolume ff
+Set GuitarVolume mp
+
+Groove Metronome3
+z
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F {4a;81a;82c;81f;82a;}
+C7 {81g;82+81g;82c;81e;82g;}
+F {2+4f;}
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+C7
+
+Repeat
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F
+Bb
+F
+Bass Chords C
+F
+Bass Chords {}
+F
+Groove CountryWaltzFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+C7
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+C7
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F7
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+Bb
+Bbm
+F
+C7
+F
+RepeatEnding
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+C7
+RepeatEnd
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F7
+
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+Bb
+Bb
+F
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F7
+
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+Bb
+Bb
+F
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+C7
+
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F
+Bb
+F
+Bass Chords C
+F
+Bass Chords {}
+F
+Groove CountryWaltzFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+C7
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+C7
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F
+Groove CountryWaltzFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F7
+Groove CountryWaltzBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+Bb
+Bbm
+F
+C7
+F
+Groove CountryWaltzEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Plectrum-guitar2 Volume $GuitarVolume
+F
+
+
+
+
+
+
+
+
+
+

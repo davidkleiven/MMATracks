@@ -1,0 +1,109 @@
+// Country Waltz Grooves
+
+Time 3
+
+// Drum track
+Begin Drum Define
+    D3 3 0 120;
+    D23 2 0 120; 3 0 120;
+    D1 1 0 120;
+End
+
+// Bass Grooves
+Bass Define Bass15 1 2 1 90; 1 2 5 90;
+Bass Define Bass1 1 2 1 90;
+Bass Define Bass1to2 1 4 1 90; 2 4 2 90; 3 4 3 90;
+Bass Define Bass1to3 1 4 1 90; 2 4 7- 90; 3 4 6- 90;
+Bass Define Long 1 1 1 90;
+
+Plectrum Define Simple 2 +3 120 120 120 120 120 100; 3 +1 120 120 120 120 120 100;
+Plectrum Define SimpleSwing 2 +3 60 60 60 60 60 60; 2.66 -3 40 40 40 40 40 40; 3 +1 60 60 60 60 60 60;
+Plectrum Define LongNote 1 +6 120 120 120 120 120 120;
+
+// Begin groove
+// Drum groove
+Begin Drum-Bass
+    Tone KickDrum1
+    Volume m
+    Sequence D1
+End
+Begin Drum-OpenHiat
+    Tone OpenHihat
+    Volume m
+    Sequence D1
+End
+Begin Drum-Snare
+    Tone SnareDrum2
+    Volume m
+    Sequence D3
+End
+Begin Drum-Hihat
+    Tone ClosedHiHat
+    Volume p
+    Sequence D23
+End
+
+Begin Bass
+    Voice FingeredBass
+    Sequence Bass1
+    Octave 3
+    Articulate 60
+End
+
+Begin Plectrum-guitar
+    Voice MutedGuitar
+    Sequence Simple
+    Octave 5
+End
+
+Begin Plectrum-guitar2
+    Voice NylonGuitar
+    Sequence SimpleSwing
+    Octave 5
+End
+
+DefGroove CountryWaltzBass1
+
+Begin Bass
+    Voice FingeredBass
+    Sequence Bass1to2
+    Octave 3
+    Articulate 60
+End
+
+DefGroove CountryWaltzFill1
+
+Begin Bass
+    Voice FingeredBass
+    Sequence Bass1to3
+    Octave 3
+    Articulate 60
+End
+DefGroove CountryWaltzFill2
+
+SeqClear
+Begin Bass
+    Voice FingeredBass
+    Sequence Long
+    Octave 3
+    Articulate 60
+End
+
+Begin Plectrum-guitar
+    Voice NylonGuitar
+    Sequence LongNote
+    Octave 5
+End
+
+Begin Drum-Bass
+    Tone KickDrum1
+    Volume m
+    Sequence D1
+End
+Begin Drum-Hihat
+    Tone OpenHiHat
+    Volume m
+    Sequence D1
+End
+
+DefGroove CountryWaltzEnd
