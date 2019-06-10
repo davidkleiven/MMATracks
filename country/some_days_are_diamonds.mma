@@ -1,0 +1,87 @@
+// Some days are diamonds
+
+use ../grooves/easy_country
+
+KeySig G
+Tempo 120
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 4
+    Articulate 90
+End
+
+Solo Volume ff
+Set BassVolume ff
+Set GuitarVolume mp
+
+Groove Metronome4
+z {4r;81r;82g;4a;4g;}
+Groove CountryRelaxedShuffle
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G {4b;81a;82+2g;}
+D7 {4r;81r;82d;4b;4a;}
+G {1g;}
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+
+Repeat
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+D7
+Em
+Bass Chords Em / G /
+Em / D7 /
+Bass Chords {}
+C
+C
+G
+G
+C
+C
+G
+Em
+A7
+A7
+D7
+D7
+Groove CountryRelaxedShuffle
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+C
+G
+G
+Em
+A7
+D7
+D7
+G
+C
+G
+Em
+C
+D7
+G
+RepeatEnding
+Groove CountryRelaxedFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+RepeatEnd
+Bass Chords G / F Ab
+G / C /
+Bass Chords {}
+Groove CountryRelaxedEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+
+
+
+
