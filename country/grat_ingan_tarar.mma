@@ -1,0 +1,97 @@
+// Graat Ingan Taarar
+
+use ../grooves/easy_country
+Tempo 100
+KeySig C
+
+Set BassVolume ff
+Set GuitarVolume mp
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 5
+    Articulate 90
+End
+
+Solo Volume ff
+
+Groove Metronome4
+z {4r;4c;4c;4c;}
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G7 {2+4b-;4a-;}
+G7 {4g-;4f;43f;43e;43d;}
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C / F / {1c;}
+C / G7 /
+Repeat
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+C7
+F
+F
+G7
+G7
+C
+G7
+C
+C7
+F
+F
+G7
+G7
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C / F /
+Groove CountryRelaxedFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C / C7 /
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F
+F
+C
+C
+Em
+Am
+D7
+Groove CountryRelaxedFill2
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G7
+RepeatEnd
+
+Groove CountryRelaxed
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+C7
+F
+F
+G7
+G7
+C
+G7
+C
+C7
+F
+F
+G7
+G7
+Groove CountryRelaxedFill4
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C / F /
+Groove CountryRelaxedEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+
