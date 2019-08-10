@@ -1,0 +1,103 @@
+// Help Me Through The Night
+
+use ../grooves/8beatballad
+
+Tempo 140
+KeySig D
+
+Set BassVolume ff
+Set GuitarVolume p
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 4
+    Articulate 90
+End
+
+Solo Volume ff
+
+Groove Metronome4
+z {2r;4e;4f#;}
+z {4g;4e;4e;4d;}
+Groove Steady8BeatBallad
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+A7 {1c#;}
+A7
+A7 {2r;4g;4g;}
+A7 {4f#;4e;4d;4c#;}
+D {1d;}
+D
+Repeat
+Groove Steady8BeatBalladEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+D
+z
+Groove Steady8BeatBallad
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+D
+G
+D
+D7
+G
+G {2g-;2f#-;}
+Em {1e-;}
+Em
+A7
+A7
+A7
+A7
+D
+RepeatEnding 1
+D
+RepeatEnd
+G
+D
+D7
+Groove Steady8BeatBalladSus
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+G
+G
+G
+G
+D
+D
+D
+D
+E7
+E7
+E7
+E7
+A7
+A7
+Groove Steady8BeatBalladEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+D
+z
+Groove Steady8BeatBallad
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+D
+G
+D
+D7
+G
+G {2g-;2f#-;}
+Em {1e-;}
+Em
+A7
+A7
+A7
+A7
+D
+G
+Groove Steady8BeatBalladEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+D
+
+
