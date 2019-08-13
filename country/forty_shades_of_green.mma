@@ -1,0 +1,82 @@
+// Green green grass of home
+use ../grooves/8beatballad
+
+Tempo 100
+KeySig C
+
+Set BassVolume ff
+Set GuitarVolume mp
+Set ChordVolume mp
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 4
+    Articulate 90
+End
+
+Groove Metronome4
+z {4r;8d;8e;8f;8g;8a;8b;}
+Groove Steady8BeatBallad
+Bass Volume $BassVolume
+Solo Volume ff
+Plectrum-guitar Volume $GuitarVolume
+F {4c+;4c+;8b;8+4c+;}
+C {8a;8a;2g;8e;8e;}
+Groove Steady8BeatBalladBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Dm7 / G7 {8f;4+8f;4e;4d;}
+Groove Steady8BeatBalladLow
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C {1c;}
+Repeat
+C
+C / C7 /
+F
+F
+F
+C
+D7
+G7
+C
+C / C7 /
+F
+F
+F
+C
+Groove Steady8BeatBalladBass1Low
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Dm7 / G7
+Groove Steady8BeatBalladFill1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+Groove Steady8BeatBalladSus
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+F
+G
+C
+C / C7 /
+F
+G
+C
+G7
+C
+C / C7 /
+F
+F
+F
+C
+Groove Steady8BeatBalladBass1
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+Dm7 / G7
+Groove Steady8BeatBallad
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
+RepeatEnd
+

@@ -122,3 +122,44 @@ Begin Drum-Hihat
 End
 
 DefGroove Steady8BeatBalladEnd
+
+SeqClear
+Begin Drum-Bass
+    Tone KickDrum1
+    Volume m
+    Sequence D13
+End
+Begin Drum-Snare
+    Tone Sticks
+    Volume m
+    Sequence D24
+End
+Begin Drum-Hiat
+    Tone ClosedHiHat
+    Volume p
+    Sequence D8
+End
+
+Begin Bass
+    Voice FingeredBass
+    Sequence Bass1to3
+    Octave 3
+    Articulate 60
+End
+
+Begin Plectrum-guitar
+    Voice NylonGuitar
+    Sequence Simple
+    Octave 5
+End
+
+DefGroove Steady8BeatBalladLow
+
+Begin Bass
+    Voice FingeredBass
+    Sequence Bass1
+    Octave 3
+    Articulate 60
+End
+
+DefGroove Steady8BeatBalladBass1Low
