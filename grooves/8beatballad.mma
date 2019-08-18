@@ -18,7 +18,7 @@ Bass Define Bass1to3 1 4+8 1 90; 2.5 8 1 90; 3 4+8 5 90; 4.5 8 5 60;
 Bass Define Bass1 1 4+8 1 90; 2.5 8 1 90; 3 4+8 1 90; 4.5 8 1 60;
 Bass Define BassDown 1 8 1 90; 1.5 8 1 90; 2 4 7- 90; 3 4 6- 90; 4 4 5- 90;
 Bass Define Long 1 1 1 90;
-Bass Define Half 1 2 1 90; 3 2 1 90;
+Bass Define HalfNote 1 2 1 90; 3 2 1 90;
 
 // Plectrum-patterns
 Plectrum Define Simple 1 +3 70 70 70 70 70 70; 2 +3 120 120 120 120 120 100; 2.5 -3 70 70 70 70 70 70; 3 +1 70 70 70 70 70 70; 4 +1 120 120 120 120 120 120;
