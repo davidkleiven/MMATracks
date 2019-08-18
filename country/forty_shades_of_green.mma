@@ -79,4 +79,8 @@ Bass Volume $BassVolume
 Plectrum-guitar Volume $GuitarVolume
 C
 RepeatEnd
+Groove Steady8BeatBalladEnd
+Bass Volume $BassVolume
+Plectrum-guitar Volume $GuitarVolume
+C
 
